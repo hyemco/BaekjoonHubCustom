@@ -16,62 +16,26 @@
 
 </br>
 
-## Contributors
+## Original Gihub Repository
+  [Repository로 이동하기](https://github.com/BaekjoonHub/BaekjoonHub "BaekjoonHub Original Gihub Repository")
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/flaxinger"><img src="https://avatars.githubusercontent.com/u/70012548?v=4?s=100" width="100px;" alt="flaxinger"/><br /><sub><b>flaxinger</b></sub></a><br /><a href="#maintenance-flaxinger" title="Maintenance">🚧</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/getCurrentThread"><img src="https://avatars.githubusercontent.com/u/31976959?v=4?s=100" width="100px;" alt="getCurrentThread"/><br /><sub><b>getCurrentThread</b></sub></a><br /><a href="#maintenance-getCurrentThread" title="Maintenance">🚧</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/doxxx93"><img src="https://avatars.githubusercontent.com/u/51396905?v=4?s=100" width="100px;" alt="Doxxx93"/><br /><sub><b>Doxxx93</b></sub></a><br /><a href="#talk-doxxx93" title="Talks">📢</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://xvezda.com"><img src="https://avatars.githubusercontent.com/u/9497404?v=4?s=100" width="100px;" alt="Xvezda"/><br /><sub><b>Xvezda</b></sub></a><br /><a href="https://github.com/BaekjoonHub/BaekjoonHub/commits?author=Xvezda" title="Documentation">📖</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/mumwa"><img src="https://avatars.githubusercontent.com/u/13832137?v=4?s=100" width="100px;" alt="mumwa"/><br /><sub><b>mumwa</b></sub></a><br /><a href="https://github.com/BaekjoonHub/BaekjoonHub/commits?author=mumwa" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/cokemania2"><img src="https://avatars.githubusercontent.com/u/38974863?v=4?s=100" width="100px;" alt="cokemania2"/><br /><sub><b>cokemania2</b></sub></a><br /><a href="https://github.com/BaekjoonHub/BaekjoonHub/commits?author=cokemania2" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/keinetwork"><img src="https://avatars.githubusercontent.com/u/102347379?v=4?s=100" width="100px;" alt="keinetwork"/><br /><sub><b>keinetwork</b></sub></a><br /><a href="#question-keinetwork" title="Answering Questions">💬</a></td>
-    </tr>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/LimSB-dev"><img src="https://avatars.githubusercontent.com/u/95527804?v=4?s=100" width="100px;" alt="임성빈"/><br /><sub><b>임성빈</b></sub></a><br /><a href="#question-LimSB-dev" title="Answering Questions">💬</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/fhdufhdu"><img src="https://avatars.githubusercontent.com/u/32770312?v=4?s=100" width="100px;" alt="fhdufhdu"/><br /><sub><b>fhdufhdu</b></sub></a><br /><a href="https://github.com/BaekjoonHub/BaekjoonHub/commits?author=fhdufhdu" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://koderpark.dev"><img src="https://avatars.githubusercontent.com/u/43494256?v=4?s=100" width="100px;" alt="박성훈 / Koder"/><br /><sub><b>박성훈 / Koder</b></sub></a><br /><a href="#business-Koderpark" title="Business development">💼</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
+<br/>
 <br/>
 
 ## 목차
 
-1. [크롬 마켓](#지금-크롬-마켓에서-확인하세요)
-2. [백준허브란?](#백준허브란what-is-baekjoonhub)
+
+1. [백준허브란?](#백준허브란what-is-baekjoonhub)
+1. [Custom 내용](#Custom-내용)
 3. [설치 및 연동](#설치-및-연동how-to-set-it-up)
 4. [작동 원리](#작동원리how-it-works)
    1. [동작 화면](#1-동작-화면)
    2. [업로드 시점](#2-업로드-시점)
    3. [저장되는 정보](#3-저장되는-정보)
-5. [개발자 참고 내용](#개발자-참고-내용)
-6. [링크 및 문서](#링크-및-문서)
+
+
    <br />
-   <br />
 
-<!--- 마켓  --->
-
-## 지금 크롬 마켓에서 확인하세요!
-
-<a href="https://chrome.google.com/webstore/detail/ccammcjdkpgjmcpijpahlehmapgmphmk">
-  <img src="assets/extension/bookmark1.png"/>
-</a>
-
-<a href="https://chrome.google.com/webstore/detail/ebcggjojbiojfmiaammkfbdgmlpfflig">
-  <img src="assets/extension/bookmark2.png"/>
-</a>
 
 <!--- 소개 --->
 
@@ -84,6 +48,56 @@
   BaekjoonHub is a chrome extension that automatically pushes your code to GitHub when you pass all tests on a <a href="https://www.acmicpc.net/">Baekjoon Online Judge</a> problem. This project was based off of <a href="https://github.com/QasimWani/LeetHub">LeetHub</a>, a similar extension for Leetcode.
 </p>
 👉 <a href="https://github.com/flaxinger/BOJAutoPush"> 예시 Repository</a> 보러 가기<br/>
+
+<br />
+<br />
+
+## Custom 내용
+scripts / baekjoon OR programmenrs OR swexpertacademy / parsing.js <br>
+업로드될 폴더명, commit 컨벤션 수정
+
+```JavaScript
+function makeDetailMessageAndReadme(data) {
+  const { problemId, submissionId, title, level, problem_tags,
+    problem_description, problem_input, problem_output,
+    code, language, memory, runtime } = data;
+
+
+  // directory 수정
+  const directory = `BOJ/${level.replace(/ .*/, '')}/${problemId}. ${convertSingleCharToDoubleChar(title)}`;
+  const category_message = problem_tags.slice(0, 2).join(', ');
+
+  // commit message 수정
+  const message = `[${level}] ${category_message || "None"} - ${title}`;
+
+  const fileName = `${problemId}_${convertSingleCharToDoubleChar(title)}.${languages[language]}`;
+  const category = problem_tags.join(', ');
+
+  const readme = `# [${level}] ${title} - ${problemId} \n\n`
+    + `[문제 링크](https://www.acmicpc.net/problem/${problemId}) \n\n`
+    + `### 성능 요약\n\n`
+    + `메모리: ${memory} KB, `
+    + `시간: ${runtime} ms\n\n`
+    + `### 분류\n\n`
+    + `${category || "Empty"}\n\n` + (!!problem_description ? ''
+      + `### 문제 설명\n\n${problem_description}\n\n`
+      + `### 입력 \n\n ${problem_input}\n\n`
+      + `### 출력 \n\n ${problem_output}\n\n` : '');
+
+  return {
+    directory,
+    fileName,
+    message,
+    readme,
+    code
+  };
+}
+```
+
+
+
+
+
 
 <br />
 <br />
@@ -193,42 +207,3 @@
 <br />
 <br />
 
-<!--- 개발자 참고 내용 --->
-
-## 개발자 참고 내용
-```sh
-$ npm test # jest test 실행
-```
-
-
-<!--- 링크 및 문서 --->
-
-## 링크 및 문서
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/BaekjoonHub/BaekjoonHub/issues" title="버그신고">
-          <img src="./assets/readme_icons/bug.png" width="100" height="100">
-      </a><br/><sub><b>버그 신고</b></sub>
-    </td>
-    <td align="center">
-      <a href="https://hyeon-jinhyeok.tistory.com/5" title="GetCurrentThread의 개발블로그">
-        <img src="./assets/readme_icons/tstory.png" width="100" height="100">
-      </a><br/><sub><b>개발 블로그</b></sub>
-    </td>
-    <td align="center">
-      <a href="https://open.kakao.com/o/gOWn2ySd" title="카카오톡 협업방">
-        <img src="./assets/readme_icons/kakao.png" width="100" height="100">
-      </a><br/><sub><b>카카오톡 협업방</b></sub>
-    </td>
-    <td align="center">
-      <a href="./Patch_Notes/" title="패치 노트">
-        <img src="./assets/readme_icons/patchnotes.png" width="100" height="100">
-      </a><br/><sub><b>패치 노트</b></sub>
-    </td>
-  </tr>
-</table>
-
-<br />
-<br />

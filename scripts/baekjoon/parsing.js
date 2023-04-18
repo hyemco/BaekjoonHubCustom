@@ -5,7 +5,6 @@
 
 /*
   bojData를 초기화하는 함수로 문제 요약과 코드를 파싱합니다.
-
   - 문제 설명: problemDescription
   - Github repo에 저장될 디렉토리: directory
   - 커밋 메시지: message 
@@ -34,7 +33,7 @@ async function findData(data) {
   }
   return null;
 }
- 
+
 /**
  * 문제의 상세 정보를 가지고, 문제의 업로드할 디렉토리, 파일명, 커밋 메시지, 문제 설명을 파싱하여 반환합니다.
  * @param {Object} data
@@ -45,10 +44,14 @@ function makeDetailMessageAndReadme(data) {
     problem_description, problem_input, problem_output,
     code, language, memory, runtime } = data;
 
-  const directory = `백준/${level.replace(/ .*/, '')}/${problemId}. ${convertSingleCharToDoubleChar(title)}`;
-  const message = `[${level}] Title: ${title}, Time: ${runtime} ms, Memory: ${memory} KB -BaekjoonHub`;
+
+  const directory = `BOJ/${level.replace(/ .*/, '')}/${problemId}. ${convertSingleCharToDoubleChar(title)}`;
+  // const directory = `백준/${level.replace(/ .*/, '')}/${problemId}. ${convertSingleCharToDoubleChar(title)}`;
+  const category_message = problem_tags.slice(0, 2).join(', ');
+  const message = `[${level}] ${category_message || "None"} - ${title}`;
+  // const message = `[${level}] Title: ${title}, Time: ${runtime} ms, Memory: ${memory} KB -BaekjoonHub`;
+  const fileName = `${problemId}_${convertSingleCharToDoubleChar(title)}.${languages[language]}`;
   const category = problem_tags.join(', ');
-  const fileName = `${convertSingleCharToDoubleChar(title)}.${languages[language]}`;
   // prettier-ignore-start
   const readme = `# [${level}] ${title} - ${problemId} \n\n`
     + `[문제 링크](https://www.acmicpc.net/problem/${problemId}) \n\n`
@@ -163,7 +166,6 @@ function findFromResultTable() {
 
 /*
   Fetch를 사용하여 정보를 구하는 함수로 다음 정보를 확인합니다.
-
     - 문제 설명: problem_description
     - 문제 입력값: problem_input
     - 문제 출력값: problem_output
